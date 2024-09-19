@@ -1,3 +1,5 @@
+import os
+
 print('Franchin Multimarcas')
 
 print('1. Cadastro de Veiculos')
@@ -12,6 +14,7 @@ if opcao_escolhida == 1:
     print('Cadastro de Veiculo')
 elif opcao_escolhida == 2:
     print('Listar  Renavam e Chassi')
+    
 elif opcao_escolhida == 3:
     print('Ativar Anuncios de Veiculos')
 else:
